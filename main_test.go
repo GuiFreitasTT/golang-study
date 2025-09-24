@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestSomar(t *testing.T) {
-    resultado := Somar(2, 2)
+    resultado := Somar(5, 2)
     esperado := 4
 
     if resultado != esperado {
